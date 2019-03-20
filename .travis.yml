@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: eYNQjnyfXZKLwEjxksPVi6qDG4g3bbgcqT9Mx/x/n9lf0kcEr4+iqZyxsnME5g30dtgoewrGT6HiDCxoev/cs7/gT6qaNgSu+G8vCqHarF1ip2kDa0UnhPPabDBPGpJlanD0+BgjX+Nd0r3RxqllLHb5M49BKJpQTHtcCkXXUeInnUB5c6uRDArDxQwW+TNxkjLD5ZJsq+OE8zpPH4lkB6o1okgmUkjedEYWytMgzruO/2qhxjS/Sf7IooCIpmEfmKDnIpd+6GMA1h3GSsnp68W44GFhBRctWnk8LiV4ddqrMYa5EbduVLUCFCo3uASLGvJi/htaxiIqQvkoZjLbvx1X16mf6E3WBRpaKbudh1mHVVEVBlmwTB27I4Bq85XiH5SQLCzfUG5mMkMYuhGlkLlyiF0O4Km3rkrtx5RGQXUgO3PXG5O7ki1fGnlnVRknF5QrJDYSZ1Q9JCJUiWGeWw2N/ucjmGxRhM2FpzHYN7/HjUZhJNwshYIRHLoOCcu09JaMJnWuGHle0TrcQm1aDDlKBlhX4gSElSfRq496nzRs2x2CC/gYR3hGHPqeAVuF7Sn3NW8N6HfcbDpWmdvo8VH/LHvTGPvgS3mVbAf5EjGWAQE3nxs8YNcSC+PYSaVx6PAcWv3bxY4uMnUBWD8GWkMdxGLnb1eaUW0tlKrRH6Y=
+  app: pure-brook-71590
+  on:
+    repo: sarL3y/blog-app-final
