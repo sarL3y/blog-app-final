@@ -1,4 +1,4 @@
-Blog app API starter files
+Blog App Final
 ==========================
 
-Starter files for blog app challenge
+Test Blog App
